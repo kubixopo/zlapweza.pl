@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+    
+        <div id="navbar">
+                <a href="#content">JAJECZKA.pl</a>
+                <div id="navbar-right">
+                  <a class="active" href="#">Strona główna</a>
+                  <a href="#">Numer1</a>
+                  <a href="#">Numer2</a>
+                  <a href="#">Numer3</a>
+                  <a href="#">Numer4</a>
+                </div>
+              </div>
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+              </a>
+            </div>
+        <div id="content">
+            
+            JAJECZKA.PL TO KOZAKI POZDRO.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempus augue eu orci rhoncus, dictum sollicitudin diam lobortis. Sed vehicula libero risus, vel fringilla ipsum efficitur non. Donec a nisl sit amet elit tristique placerat in ac justo. Duis venenatis a magna non tempus. Vivamus tortor libero, venenatis sed augue in, molestie lacinia ante. Suspendisse porta mi lobortis libero fringilla, eleifend viverra est lacinia. Donec nec congue elit. Vivamus non tortor mi. Vivamus luctus varius mauris, eget ultricies turpis sagittis non. Nullam eget massa id felis imperdiet venenatis. Donec id auctor diam, nec scelerisque elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec interdum, turpis vitae efficitur maximus, orci velit ultricies neque, vel condimentum risus justo a enim.
+            <img style="float: left;" src="123.jpg" width="300px" height="250px">
+            Nunc imperdiet varius mi vitae aliquam. Duis in massa eu orci efficitur eleifend. Curabitur eu dolor pretium, pretium dui in, dictum neque. Phasellus tristique orci sit amet arcu facilisis, ut porttitor eros commodo. Mauris eu consectetur massa, id cursus sapien. Pellentesque in nisl dolor. Donec cursus nunc felis, eget cursus odio rhoncus non. Integer accumsan quam quam, viverra fringilla mauris lobortis eget. Quisque interdum lorem metus, non facilisis arcu faucibus nec. Mauris et pretium ex. Donec aliquet dolor non dolor ornare fringilla.<br /><br />
+                
+            Vivamus maximus consequat porta. Nunc egestas eu massa vitae fermentum. Phasellus eget ultrices augue, vitae molestie magna. Nullam quis gravida lacus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc in nunc volutpat, dignissim dolor ac, vulputate magna. Curabitur ac odio molestie, auctor lacus ac, ornare enim. Donec mi mi, vestibulum vitae urna quis, placerat vulputate dui. Fusce fringilla enim a nunc maximus, a semper ex ornare. Donec sed eros laoreet justo mollis aliquam. Nam tincidunt lobortis augue sit amet vulputate. Aenean ac metus non mauris vehicula pretium a nec odio. Etiam vestibulum justo et eros placerat commodo. Vestibulum ac purus congue, pretium enim id, accumsan sapien. Vivamus neque libero, facilisis at condimentum interdum, mattis sit amet enim. <br /><br />
+                
+            Etiam gravida fringilla faucibus. Nam id nunc efficitur nulla tempus suscipit sit amet ut lacus. Proin suscipit feugiat mattis. Aenean vel aliquet felis, at pretium sem. Proin non consequat dolor. Pellentesque et nulla magna. Pellentesque facilisis aliquam dui id sagittis. Duis luctus sagittis porta. Vivamus non dui eget mi placerat aliquet et ultrices metus. Integer luctus eleifend ultrices. In at ex sit amet quam elementum mattis. Nunc non tellus vitae est porttitor accumsan. Nunc et justo id risus vestibulum facilisis ut sed dolor. Ut dignissim, arcu sit amet aliquet tristique, sapien purus pretium lacus, quis varius neque velit in erat.<br /><br />
+                
+            Aenean nec ex urna. Mauris lorem ex, maximus a consequat sit amet, dignissim mattis risus. Proin a nibh quam. Integer sit amet velit quam. Praesent a ante mi. Mauris auctor dui ut aliquet blandit. Integer et enim arcu. Aenean est libero, scelerisque et urna et, feugiat aliquet quam. In et interdum massa, non suscipit est. Etiam sit amet lacus viverra, euismod augue non, vestibulum ligula. Integer non magna vel dui vestibulum maximus vel eleifend ipsum.</div>
+        <div class="footer">&copy; jajeczka.pl 2019</div>
+        <script>
+                window.onscroll = function() {scrollFunction()};
+                wid = document.documentElement.clientWidth;
+                function scrollFunction() {
+                  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+                    document.getElementById("navbar").style.padding = "10px 10px";
+
+                  } else {
+                    document.getElementById("navbar").style.padding = "35px 10px";
+                    
+                  }
+                  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+                    document.getElementById("navbar").style.opacity = "0.9";
+                }else{
+                    document.getElementById("navbar").style.opacity = "1";
+                }
+                }
+                
+                function myFunction() {
+                    if (x.style.display === "block") {
+                         x.style.display = "none";
+                    }
+                    else {
+                        x.style.display = "block";
+                    }
+                }
+                wid = document.documentElement.clientWidth;
+
+                </script>
+</body>
+</html>
