@@ -1,0 +1,171 @@
+*{
+  box-sizing: border-box;
+  padding:0;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  width: 100%;
+  height: 100%;
+  background-color: yellow;
+  //background-size: 100% auto;
+  overflow-x: hidden;
+  font-size: 1.5vw;
+  margin:0 !important;
+  font-family: 'Muli', sans-serif;
+
+}
+#navbar {
+  overflow: hidden;
+  background-color:#2e581a;
+  padding: 40px 10px;
+  transition: 0.4s;
+  position:static;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+  width: 85%;
+  margin:0 auto;
+  
+}
+
+#navbar a {
+  float: left;
+  color: white;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+#navbar a:hover {
+  color: #0f2406;
+}
+
+#navbar a.active {
+  background-color: #1a350e;
+  color: white;
+}
+
+#navbar-right {
+  float: right;
+}
+
+#navbar .logo{
+  font-size: 18px;
+}
+button{
+  display:none;
+}
+.jeden{
+  display: none;
+}
+
+.dwa{
+  display: flex;
+  flex-direction: row;
+  font-size:3.3vw;
+  color:white;
+  margin:0 auto;
+}
+@media screen and (max-width: 640px) {
+  #navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    display:flex;
+    flex-direction: column;
+  }
+  #navbar a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    
+  }
+
+  #navbar a:hover {
+
+    color: black;
+  }
+  #navbarLinks{
+    display: none;
+    flex-direction: column;
+  }
+
+  button{
+    display:flex;
+    border: none;
+    padding: 10px;
+    color:red;
+    text-decoration: none;
+    flex-direction: row;
+    float:left;
+    margin: 0 auto ;
+    background-color: fuchsia ;
+  }
+  .jeden{
+    display: flex;
+    flex-direction: row;
+    font-size:3.3vw;
+    color:white;
+    margin:0 auto;
+    width: auto;
+    text-align: center;
+  }
+  .header{
+    width: 100%;
+    margin: 0 auto ;
+  }
+  .footer{
+    font-size:3.3vw;
+  }
+  .dwa{
+    display: none;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+ 
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10  px yellow; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(120deg, #b8f529 0%, #49b119 100%);
+  border-radius:10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(120deg, #b8f529 0%, #49b119 100%);
+}
+.menu{
+  background-color: red;
+  width: 85%;
+  margin:0 auto;
+}
+#content{
+  height: auto;
+  width: 85%;
+  background-color: #69cc3b;
+  margin:0 auto;
+  padding:10px;
+  letter-spacing: 1px;
+  text-align: justify;
+  align-items: flex-start;
+  word-wrap: break-word;
+  scroll-behavior: smooth;
+  color:black;
+  font-size:1.3vw;
+
+}
+
+.footer{
+  text-align: center;
+  width: 100%;
+  margin:0 auto;
+}
