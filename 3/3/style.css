@@ -1,0 +1,228 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: yellow;
+  overflow-x: hidden;
+  margin: 0 !important;
+  font-family: 'Muli', sans-serif;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #2e581a;
+  padding: 40px 10px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  position: static;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+  width: 85%;
+  margin: 0 auto;
+}
+
+#navbar a {
+  float: left;
+  color: white;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+#navbar a:hover {
+  color: #0f2406;
+}
+
+#navbar a.active {
+  background-color: #1a350e;
+  color: white;
+}
+
+#navbar-right {
+  float: right;
+}
+
+#navbar .logo {
+  font-size: 18px;
+}
+
+button {
+  display: none;
+}
+
+.jeden {
+  display: none;
+}
+
+.dwa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0 !important;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 10  px yellow;
+          box-shadow: inset 0 0 10  px yellow;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(120deg, #b8f529 0%, #49b119 100%);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(120deg, #b8f529 0%, #49b119 100%);
+}
+
+.menu {
+  background-color: red;
+  width: 85%;
+  margin: 0 auto;
+}
+
+#content {
+  height: auto;
+  width: 85%;
+  background-color: #69cc3b;
+  margin: 0 auto;
+  padding: 10px;
+  scroll-behavior: smooth;
+}
+
+#content .tekst {
+  color: black;
+  letter-spacing: 1px;
+  text-align: justify;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  word-wrap: break-word;
+  padding: 10px 40px;
+  font-size: 1.5vw;
+}
+
+.footer {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    font: size 3.3vw;
+    overflow: scroll;
+  }
+  #navbar {
+    overflow: hidden;
+    background-color: #2e581a;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  #navbar a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  #navbar a:hover {
+    color: #0f2406;
+  }
+  #navbarLinks {
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #content {
+    font-size: 3.3vw;
+    width: 100%;
+  }
+  #content .tekst {
+    color: black;
+    font-size: 3.3vw;
+  }
+  .footer {
+    width: 100%;
+    background-color: #2e581a;
+  }
+  button {
+    display: inline-block;
+    padding: 0.5em 3em;
+    border: 0.16em solid #FFFFFF;
+    margin: 0 0.3em 0.3em 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-decoration: none;
+    color: #DDDDDD;
+    text-align: center;
+    -webkit-transition: all 0.15s;
+    transition: all 0.15s;
+    background-color: #1f3d11;
+    font-size: 3.3vw;
+  }
+  button:hover {
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    background-color: #18300d;
+  }
+  button:active {
+    color: #BBBBBB;
+    border-color: #BBBBBB;
+  }
+  .jeden {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    font-size: 3.3vw;
+    color: white;
+    margin: 0 auto;
+    width: auto;
+    text-align: center;
+  }
+  .header {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .footer {
+    font-size: 3.3vw;
+  }
+  .dwa {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
